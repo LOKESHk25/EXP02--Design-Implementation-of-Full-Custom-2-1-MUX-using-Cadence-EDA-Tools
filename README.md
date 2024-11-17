@@ -1,20 +1,24 @@
 # EXP02--Design-Implementation-of-Full-Custom-2-1-MUX-using-Cadence-EDA-Tools
-Experiment -2 
-Aim:
+
+## Aim:
 To design and implement a 2:1 multiplexer (MUX) circuit using Cadence EDA tools, analyse its functionality and performance, and understand the principles of digital logic design, including schematic creation, layout design, and simulation.
-Tools Required:
+## Tools Required:
 •	Personal Computer
 •	Cadence Virtuoso Software
 
-S C H E M A T I C S I M U L A T I O N
+## Circuit Diagram
+![IMG-20241115-WA0011](https://github.com/user-attachments/assets/05b77a4a-2ace-484e-86c3-46143a065ffb)
+
+## S C H E M A T I C S I M U L A T I O N
 PROCEDURE FOR CREATING THE SCHEMATIC SIMULATION
 Commands to get into Cadence
 1.	Right Click and open the terminal window
 2.	Type the following commands as follows and press enter.
 •	csh
 •	source /cadence/install/cshrc
-•	virtuoso 
-Procedure for Schematic simulation using Cadence
+•	virtuoso
+
+## Procedure for Schematic simulation using Cadence
 
 1.	Now two windows must open i)virtuoso/command interpreter window ii)”Whats New…”
 2.	Close the 2nd window
@@ -46,7 +50,8 @@ ii)	Create Schematic Cell view.
 	Create Input and Output pins
 	Make the connections by using fixed narrow wire key
 	Click Check and Save button
-![image](https://github.com/user-attachments/assets/eef7922d-b22e-4e74-975d-9545a70642ab)
+![Screenshot (86)](https://github.com/user-attachments/assets/9faa4ac1-a4b4-416a-8bd9-ff074c5fc68d)
+
 
 
  
@@ -63,7 +68,8 @@ iii)	Creating the Symbol for schematic Cell view
 •	Check for the position of pin side.Prss OK
 •	Edit for the shape by Create-Shape-Choose required options to edit.
 
- ![image](https://github.com/user-attachments/assets/efeb32ac-54b4-4c9e-a15e-a8ca0ef07623)
+ ![Screenshot (87)](https://github.com/user-attachments/assets/24b32e53-3f39-4995-bbf3-597ace020da7)
+
 
 
 iv)	Creating the new test cell view
@@ -74,10 +80,10 @@ iv)	Creating the new test cell view
 	View: Schematic
 	Type: Schematic press OK
 •	Follow the step 3(ii) d to make the required connections
-![image](https://github.com/user-attachments/assets/c4535865-c1f4-43ae-aacb-5e36eae6ef7d)
+ ![Screenshot (88)](https://github.com/user-attachments/assets/bc0da483-bb45-4d25-9254-2aeffc744eec)
 
 
-Analog simulation by SPECTRE.
+## Analog simulation by SPECTRE
 •	In test cell view window
 •	Launch – ADE L(Analog Design Environment)
 	Execute Setup—Simulation/directory/Host A new window opens
@@ -87,20 +93,20 @@ Analog simulation by SPECTRE.
 	Execute Output s—to be plotted – Select on Schematic
 	Then Select the INPUT WIRE(Vin ) and OUTPUT WIRE(Vout) from your test Schematic using mouse
 •	Execute Simulation -- Net list and Run
- ![image](https://github.com/user-attachments/assets/d136bd40-ae1d-4633-b444-7628125a413f)
+![Screenshot (92)](https://github.com/user-attachments/assets/e5959a7d-2a18-426e-9d9b-cf6cbbe41ef0)
 
 
-For Transient Analysis Settings and Output
-![image](https://github.com/user-attachments/assets/57a07469-c07a-4b44-b360-72dad6e1d98a)
+## For Transient Analysis Settings and Output
+![Screenshot (89)](https://github.com/user-attachments/assets/ad260e94-f0b0-4568-80e6-98365cfbc2fc)
 
 
-![image](https://github.com/user-attachments/assets/3451343b-1748-4a73-9227-c9c470dbdfef)
+![Screenshot (91)](https://github.com/user-attachments/assets/71f54207-94df-463e-844e-2a9c05e62d6a)
 
 
 
 
  
 
-Results:
+## Results:
 1.	The experiment successfully demonstrated the design and implementation of a 2:1 MUX using Cadence EDA tools. 
 2.	The successful verification through schematic, layout, and simulation underscores the effectiveness of using Cadence EDA tools for digital circuit design.
